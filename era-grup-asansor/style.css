@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: grey;
+}
+.logo{
+    width: 50%;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.menu{
+    width: 100%;
+    height: 160px;
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
+.main-content{
+    margin-top: 170px;
+    padding: 10px;
+    display: flex;
+}
+.menuList{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-left: 100px;
+    right: -280px;
+    width: 70%;
+}
+.menuList li{
+    font-size: 16px;
+    margin: 10px 30px;
+    color: white; 
+    height: auto;
+}
+.menuList li:hover{
+    color: grey;
+}
+.menuList li ul li{
+    text-align: center;
+    margin: 0;
+}
+.urunler{
+    list-style: none;
+    display: none;
+    position: absolute;
+    background-color: rgb(22, 22, 22);
+    padding: 5px;
+    border-radius: 10px;
+    width: 200px;
+}
+.menuList li:hover ul{
+    display: block;
+    color: rgb(22, 22, 22);
+    z-index: 1;
+}
+.urunler li{
+    padding: 10px 0px;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+.cardImg{
+    width: 100%;
+    height: 300px;
+}
+.cards{
+    display: flex;
+    margin: 0px auto;
+    justify-content: start;
+    flex-wrap: wrap;
+    margin-left: 30%;
+}
+.cardText{
+    padding: 10px;
+    color: white;
+}
+.card{
+    margin: 20px;
+    width: 30%;
+    height: auto;
+    line-height: 30px;
+    background-color: black;
+    border: 1px solid #222;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.main-content-anasayfa{
+    margin-top: 90px;
+    padding: 20px;
+    color: black;
+    margin-bottom: 120px;
+}
+.main-content-iletisim{
+    margin-top: 100px;
+    padding: 170px;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: larger;
+    height: auto;
+    display: flex;
+}
+.form{
+    width: 50%;
+}
+.iletisim-formu{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 2px solid#222;
+    margin-left: 300px;
+    border-radius: 15px;
+    background-color: rgba(70, 75, 90, 0.5);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 15px;
+}
+.formBox{
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.iletisim-content{
+    color: white;
+
+}
+.iletisim-icon{
+    background-color: white;
+    border-radius: 6px;
+}
+.iletisim-body{
+    background-image: url(assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 120%;
+}
+.numaralar{
+    width: 50%;
+}
+.tarihce{
+    margin-left: 40%;
+    font-size: large;
+    line-height: 40px;
+}
+.eskiResim{
+    position: fixed;
+    height: 60%;
+}
+.left-menu{
+    background-color: #333;
+    color: white;
+    width: 27%;
+    border-radius: 15px;
+    overflow: hidden;
+    height: 680px;
+    position: fixed;
+    padding: 10px;
+    text-align: center;
+}
+.left-menu ul{
+    list-style: none;
+}
+.left-menu ul li{
+    margin-bottom: 15px;
+}
+.left-menu ul li a{
+    color: white;
+    text-decoration: none;
+}
+.baslık2{
+    margin-bottom: 10px;
+}
+.left-menu ul li a:hover{
+    color: grey;
+}
+
+.yuruyenMerd-content{
+    margin-top: 160px;
+    text-align: center;
+    padding: 50px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.merd-images{
+    display: flex;
+    justify-content: center;
+}
+.merdImg{
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    border: 1px solid #222;
+    box-shadow: 5px 5px 15px;
+}
+.merdImg-div{
+    margin: 20px;
+}
+
+.bilgi{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+.footer-bilgi{
+    position: relative;
+    top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-designer{
+    text-align: end;
+    right: 20px;
+    display: inline;
+    position: relative;
+    bottom: 10px;
+}
+.footer{
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    background-color: black;
+    color: white;
+    height: 13%;
+    width: 100%;
+    bottom: 0px;
+}
+.asansorContent{
+    margin-left: 32%;
+    margin-right: 10px;
+    line-height: 30px;
+}
+
+.main-content-urunler{
+    margin-top: 160px;
+    margin-bottom: 13%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.urun-card{
+    margin: 20px;
+    top: 160px;
+    width: 300px;
+    min-height: 500px;
+    background-color: black;
+    border: 1px solid #222;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.urun-card-pano{
+    margin: 20px;
+    top: 160px;
+    background-color: black;
+    border: 1px solid #222;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+}
+.cardImg-pano{
+    width: 300px;
+    height: 100%;
+}
+
+.urun-card-buton{
+    margin: 20px;
+    top: 160px;
+    background-color: black;
+    border: 1px solid #222;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+}
+.cardImg-buton{
+    width: 200px;
+    height: 100%;
+}
